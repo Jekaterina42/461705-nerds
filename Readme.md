@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/23/user/461705).
-* Наставник: `Владислав Молчанов https://htmlacademy.ru/profile/id137398`.
+* Наставник: Владислав Молчанов (https://htmlacademy.ru/profile/id137398).
 
 ---
 
