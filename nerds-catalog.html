@@ -26,7 +26,54 @@
   <main class= "container">
     <section class="filters">
       <h2 class="visually-hidden">Фильтр товаров</h2>
-      <!-- Место для формы-->
+      <form class="filter" method="get" action="https://nerds.ru">
+        <section>
+          <fieldset>
+            <legend>Сетка:</legend>
+            <ul>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="grid-adaptive" id="filter-grid-adaptive" checked>
+                <label for="filter-grid">Адаптивная</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="grid-fixed" id="filter-grid-fixed">
+                <label for="filter-grid">Фиксированная</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="grid-responsive" id="filter-grid-responsive">
+                <label for="filter-grid-responsive">Резиновая</label>
+              </li>
+            </ul>
+          </fieldset>
+        </section>
+          <fieldset>
+            <legend>Особенности:</legend>
+            <ul>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
+                <label for="filter-slider">Слайдер</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantages" id="filter-advantages">
+                <label for="filter-advantages">Блок преимуществ</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked>
+                <label for="filter-news">Новости</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery" id="filter-gallery">
+                <label for="filter-gallery">Галерея</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket" id="filter-basket">
+                <label for="filter-basket">Корзина></label>
+              </li>
+            </ul>
+          </fieldset>
+          <button type="submit" class="filter-button button">Показать</button>
+        </form>
+      </section>
     </section>
     <section class="catalog-samples">
       <h2 class="visually-hidden">Примеры шаблонов</h2>
@@ -61,11 +108,29 @@
         </a>
       </p>
     </section>
+    <section class="letter">
+      <h2>Напишите нам</h2>
+      <form class="letter-form" action="https://nerds.ru" method="post">
+        <p class="letter-item">
+          <label for="client_name-date">Ваше имя:</label>
+          <input id="cliet_name-date" type="text" name="name" value="" placeholder="Имя Фамилия">
+        </p>
+        <p class="letter-item">
+          <label for="client-email">Ваш e-mail:</label>
+          <input id="client-email" type="text" name="email" value="" placeholder="email@example.com">
+        </p>
+        <p class="letter-item">
+          <label for="client-name">Текст письма:</label>
+          <input id="client-name" type="text" name="name" value="" placeholder="В свободной форме">
+        </p>
+        <button class="button" type="submit">Отправить</button>
+      </form>
+    </section>
   </main>
   <footer class ="main-footer">
     <!-- Место для карты -->
     <div class="footer-social">
-      <b>Давайте дружить,это выгодно!</b>
+      <b>Давайте дружить, это выгодно!</b>
       <ul>
         <li><a class="social-button" href="#">Вконтакте</a></li>
         <li><a class="social-button" href="#">Фейсбук</a></li>

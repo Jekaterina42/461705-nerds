@@ -18,7 +18,7 @@
           <li><a href="contacts.html">Контакты</a></li>
         </ul>
         <ul class="purchase">
-          <li class="basket">Корзина</li>
+          <li class="basket-link"><a href="basket.html">Корзина</a></li>
         </ul>
       </nav>
     </header>
@@ -42,21 +42,39 @@
             <img src="img/illustration-2.jpg" width="300" height="146" alt="Приложение">
             <h3>Приложения</h3>
             <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-            < class="button button-green" href="#">Заказать</a>
+            <class="button button-green" href="#">Заказать</a>
           </li>
           <li class="products-item">
             <img src="img/illustration-3.jpg" width="300" height="146" alt="Презентации">
             <h3>Презентации</h3>
-            <p>Вы даже не подозреваете,насколько вы изумительны!</p>
+            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
             <a class="button button-yellow" href="#">Заказать</a>
           </li>
         </ul>
+      </section>
+      <section class="letter">
+        <h2>Напишите нам</h2>
+        <form class="letter-form" action="https://nerds.ru" method="post">
+          <p class="letter-item">
+            <label for="client_name-date">Ваше имя:</label>
+            <input id="cliet_name-date" type="text" name="name" value="" placeholder="Имя Фамилия">
+          </p>
+          <p class="letter-item">
+            <label for="client-email">Ваш e-mail:</label>
+            <input id="client-email" type="text" name="email" value="" placeholder="email@example.com">
+          </p>
+          <p class="letter-item">
+            <label for="client-name">Текст письма:</label>
+            <input id="client-name" type="text" name="name" value="" placeholder="В свободной форме">
+          </p>
+          <button class="button" type="submit">Отправить</button>
+        </form>
       </section>
     </main>
     <footer class ="main-footer">
       <!-- Место для карты -->
       <div class="footer-social">
-        <b>Давайте дружить,это выгодно!</b>
+        <b>Давайте дружить, это выгодно!</b>
         <ul>
           <li><a class="social-button" href="#">Вконтакте</a></li>
           <li><a class="social-button" href="#">Фейсбук</a></li>
@@ -64,10 +82,5 @@
         </ul>
       </div>
     </footer>
-  </body>
-</html>
-
-
-
   </body>
 </html>
