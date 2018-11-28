@@ -18,7 +18,8 @@
         <li><a href="contacts.html">Контакты</a></li>
       </ul>
       <ul class="purchase">
-        <li class="basket">Корзина</li>
+        <li class="basket-link"><a href="basket.html">Корзина</a></li>
+      </ul>
       </ul>
     </nav>
   </header>
@@ -27,17 +28,17 @@
     <section class="filters">
       <h2 class="visually-hidden">Фильтр товаров</h2>
       <form class="filter" method="get" action="https://nerds.ru">
-        <section>
+
           <fieldset>
             <legend>Сетка:</legend>
             <ul>
               <li class="filter-option">
                 <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="grid-adaptive" id="filter-grid-adaptive" checked>
-                <label for="filter-grid">Адаптивная</label>
+                <label for="filter-grid-adaptive">Адаптивная</label>
               </li>
               <li class="filter-option">
                 <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="grid-fixed" id="filter-grid-fixed">
-                <label for="filter-grid">Фиксированная</label>
+                <label for="filter-grid-fixed">Фиксированная</label>
               </li>
               <li class="filter-option">
                 <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="grid-responsive" id="filter-grid-responsive">
@@ -73,8 +74,7 @@
           </fieldset>
           <button type="submit" class="filter-button button">Показать</button>
         </form>
-      </section>
-    </section>
+
     <section class="catalog-samples">
       <h2 class="visually-hidden">Примеры шаблонов</h2>
       <p class="catalog-item">
