@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+
+}
+.page-title {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+}
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+
+  background-color: #eeeeee;
+}
+.site-navigation{
+  list-style: none;
+}
+.site-navigation a
+ {
+  color: ##000000;
+}
+.site-navigation a:hover
+{
+  background-color: #fb565a;
+}
+.site-navigation a:active {
+  background-color: #eeeeee;
+}
+.purchase a:hover {
+  background-color: #fb565a;
+}
+.purchase a:active{
+  background-color: #eeeeee;
+}
+.site-navigation-current a:active{
+  text-decoration: underline;
+  text-decoration-color: #d7373b;
+}
+.filter fieldset {
+  border: none;
+}
+.filter legend {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.filter ul {
+  list-style: none;
+  text-transform: none;
+}
+.filter-input:hover + label {
+  color: #4d4d4d;
+}
+.filter-input:disabled + label {
+  color: #7c8082;
+
+  opacity: 0.3;
+}
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    border: none;
+    background-color: #eeeeee;
+  }
+  .filter-button:hover {
+    background-color: #dfdfdf;
+    opacity: 0.3;
+  }
+  .filter-button:active {
+    color: #d5d5d5;
+    background-color: #ededed;
+    opacity: 0.3;
+    box-shadow: 0px, 3px, 0px 0px, rgba(0, 0, 0, 0.1);
+
+  }
+  .letter {
+    display: none;
+  }
+  .footer-social b {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .footer-social p {
+    font-size: 16px;
+    line-height: 22px;
+  }
